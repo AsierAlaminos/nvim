@@ -12,6 +12,11 @@
 
 <br/>
 
+## Dependencies
+[packer.nvim](https://github.com/wbthomason/packer.nvim)
+
+<br/>
+
 ## Plugins installed
 1. [telescope](https://github.com/nvim-telescope/telescope.nvim)
 2. [rose-pine](https://github.com/rose-pine/neovim)
