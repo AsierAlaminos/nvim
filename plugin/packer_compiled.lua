@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/asmus/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["alpha-nvim"] = {
+    loaded = true,
+    path = "/home/asmus/.local/share/nvim/site/pack/packer/start/alpha-nvim",
+    url = "https://github.com/goolord/alpha-nvim"
+  },
   ["autoclose.nvim"] = {
     loaded = true,
     path = "/home/asmus/.local/share/nvim/site/pack/packer/start/autoclose.nvim",
@@ -88,6 +93,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/asmus/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  ["dashboard-nvim"] = {
+    loaded = true,
+    path = "/home/asmus/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
+    url = "https://github.com/glepnir/dashboard-nvim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -118,6 +128,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/asmus/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/asmus/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,

@@ -26,4 +26,7 @@ return require('packer').startup(function(use)
   }
   use {"williamboman/mason.nvim"}
   use {'m4xshen/autoclose.nvim'}
+  use {'nvim-tree/nvim-web-devicons'}
+  use {'glepnir/dashboard-nvim'}
+  use {'goolord/alpha-nvim'}
 end)
