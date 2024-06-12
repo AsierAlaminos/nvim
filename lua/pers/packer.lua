@@ -29,4 +29,18 @@ return require('packer').startup(function(use)
   use {'nvim-tree/nvim-web-devicons'}
   use {'glepnir/dashboard-nvim'}
   use {'goolord/alpha-nvim'}
+  use {
+      "kyazdani42/nvim-tree.lua",
+      requires = { "kyazdani42/nvim-web-devicons" },
+      config = function()
+          require("nvim-web-devicons").setup()
+
+          require("nvim-tree").setup {
+              hijack_cursor = true,
+              view = {
+                  width = 40
+              }
+          }
+      end
+  }
 end)
