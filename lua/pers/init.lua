@@ -5,3 +5,4 @@ vim.cmd.colorscheme "rose-pine"
 
 require("autoclose").setup()
 require("pers.plugin-conf.dashboard")
+
