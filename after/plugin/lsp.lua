@@ -50,3 +50,17 @@ cmp.setup({
     end,
   },
 })
+
+require('lspconfig').angularls.setup {
+  cmd = { "ngserver", "--stdio", "--tsProbeLocations", "/usr/local/lib/node_modules", "--ngProbeLocations", "/usr/local/lib/node_modules" },
+  on_new_config = function(new_config, new_root_dir)
+    new_config.cmd = {
+      "ngserver",
+      "--stdio",
+      "--tsProbeLocations",
+      new_root_dir,
+      "--ngProbeLocations",
+      new_root_dir,
+    }
+  end,
+}
